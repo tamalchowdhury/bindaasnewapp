@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+@font-face {
+  font-family: BankGothic;
+  src: url('./assets/bank-gothic.ttf');
+}
+:root {
+  --theme-font: BankGothic, Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: #efefef;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--theme-font);
+}
+
+#wrapper {
+  background: #fff;
+  width: 600px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+#content_area {
+  padding: 1em;
+}
+
+#content_area p,
+li {
+  font-size: 1.2em;
+}
+
+#content_area a {
+  background-color: purple;
+  color: #fff;
+  padding: 2px 5px;
+  border-radius: 2px;
+  font-size: 0.8em;
+  text-decoration: none;
+}
+
+#content_area a:hover {
+  background-color: hotpink;
+}
+
+.welcome_box {
+  background: #fcf2ce;
+  padding: 1em;
+}
+
+.skip_button {
+  float: right;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+h3 {
+  font-size: 1.2em;
+}
+
+#header {
+  background: url('./images/header.png') center top no-repeat;
+  background-size: cover;
+  padding: 1em;
+  font-family: var(--theme-font);
+}
+
+#nav a {
+  padding: 3px 7px;
+  margin-right: 10px;
+  border-radius: 3px;
+  color: #fff;
+  text-transform: lowercase;
+  display: inline-block;
+}
+
+#nav a:hover {
+  background: #ffffff;
+  color: #333333;
+  text-decoration: none;
+}
+
+.title {
+  color: #ffffff;
+  /* text-transform: uppercase; */
+}
+
+#footer {
+  font-family: var(--theme-font);
+  font-size: 0.8em;
+  text-align: center;
+}
