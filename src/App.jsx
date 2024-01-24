@@ -38,7 +38,10 @@ function App() {
                 return null;
               }}
             />
-            <Route exact path='/' component={Home} />
+            
+            <Route exact path='/' >
+              <Home/>
+            </Route>
             {/* <Route path='/about' component={About} />
             <Route path='/games' component={Games} />
             <Route path='/members' component={Members} />
